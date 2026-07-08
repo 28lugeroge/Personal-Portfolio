@@ -274,28 +274,32 @@ img { max-width: 100%; display: block; }
 /* ============================================
    SECTIONS (shared)
    ============================================ */
+body {
+  margin: 0;
+  background: linear-gradient(180deg, var(--section-bg-1), var(--paper));
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-size: 16px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
 .section {
   padding: 88px 0;
-  background: linear-gradient(180deg, var(--section-bg-1), var(--section-bg-2));
+  background: transparent;
 }
 
 #about.section {
   padding-top: 32px;
   padding-bottom: 56px;
-  background: linear-gradient(180deg, var(--section-bg-2), var(--section-bg-3));
+  background: transparent;
 }
 
-#work.section {
-  background: linear-gradient(180deg, var(--section-bg-3), var(--section-bg-4));
-}
-
-#projects.section {
-  background: linear-gradient(180deg, var(--section-bg-4), var(--section-bg-5));
-}
-
+#work.section,
+#projects.section,
 #contact.section,
 #contact.section-alt {
-  background: linear-gradient(180deg, var(--section-bg-5), var(--paper));
+  background: transparent;
 }
 
 .section-alt {
