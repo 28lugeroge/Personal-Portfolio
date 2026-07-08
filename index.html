@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Portfolio</title>
+<meta name="description" content="A clean portfolio template ready to be filled with your work and experience.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Primary">
+    <a href="#home" class="logo">~/portfolio</a>
+
+    <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">about</a></li>
+      <li><a href="#work">work</a></li>
+      <li><a href="#project">project</a></li>
+      <li><a href="#contact">contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+
+  <!-- HERO -->
+  <section class="hero" id="home">
+    <div class="wrap">
+      <p class="prompt-line">
+        <span class="prompt-sign">$</span> whoami<span class="cursor" aria-hidden="true">_</span>
+      </p>
+
+      <h1 class="hero-title"><strong>George Lu</strong></h1>
+      <p class="hero-subtitle">Global Cultures and Emerging Technology at Carnegie Mellon University</p>
+
+      <pre class="hero-code" aria-label="Developer bio, presented as a code object"><code><span class="c-key">const</span> dev = {
+  This portfolio highlights my work in CMU Pre-College's
+  GCET program and how I connect that intersection.
+};</code></pre>
+
+      <div class="hero-ctas">
+        <a href="#work" class="btn btn-primary">View my work</a>
+        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+      </div>
+
+      <ul class="social-row" aria-label="Social links">
+        <li>
+          <a href="#" aria-label="GitHub profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.04 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.7 5.38-5.27 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="#" aria-label="LinkedIn profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="mailto:hello@example.com" aria-label="Send an email">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M3 5.5h18v13H3v-13Z"/><path d="m3 6 9 7 9-7"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about">
+    <div class="wrap">
+      <div class="section-divider reveal" aria-hidden="true"></div>
+      <p class="eyebrow">~/about</p>
+      <h2 class="section-title reveal">About Me</h2>
+      <div class="section-separator reveal" aria-hidden="true"></div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <p>16 year old high school student developer based in Los Angeles, California.</p>
+        </div>
+        <div class="about-boxes reveal">
+          <div class="skill-group">
+            <h3>Languages</h3>
+            <ul class="chips">
+              <li>Java</li>
+              <li>Python</li>
+              <li>HTML</li>
+              <li>Dart</li>
+            </ul>
+          </div>
+          <div class="skill-group">
+            <h3>Other</h3>
+            <ul class="chips">
+              <li>CAD</li>
+              <li>Designing</li>
+              <li>Marketing</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="section section-alt" id="work">
+    <div class="wrap">
+      <p class="eyebrow">~/work</p>
+      <h2 class="section-title reveal">Work Tracker</h2>
+      <p class="section-copy reveal">Track what you're working on, daily goals, or progress updates here.</p>
+      <div class="work-grid">
+        <p class="empty-state reveal">Add your work updates here. Each item can include a date, task summary, and status.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects">
+    <div class="wrap">
+      <p class="eyebrow">~/projects</p>
+      <h2 class="section-title reveal">Selected Projects</h2>
+      <div class="project-grid">
+        <p class="empty-state reveal">Add your projects here. Each project block can include a title, summary, skills used, and links.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact">
+    <div class="wrap wrap-narrow">
+      <p class="eyebrow">~/contact</p>
+      <h2 class="section-title reveal">Contact Me</h2>
+      <p class="contact-copy reveal">
+        Have a project in mind? My inbox is open.
+      </p>
+      <a class="contact-email reveal" href="mailto:tweegfyads@gmail.com">tweegfyads@gmail.com</a>
+      <p class="contact-copy reveal">Phone: +1 (714) 852-2799</p>
+
+      <ul class="social-row social-row-center reveal" aria-label="Social links">
+        <li>
+          <a href="https://github.com/yourusername" aria-label="GitHub profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.1 3.29 9.4 7.86 10.93.57.1.78-.25.78-.55v-2.15c-3.2.7-3.87-1.36-3.87-1.36-.53-1.33-1.29-1.69-1.29-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.04 1.77 2.72 1.26 3.38.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.46.11-3.04 0 0 .96-.31 3.15 1.18a10.9 10.9 0 0 1 5.74 0c2.19-1.49 3.15-1.18 3.15-1.18.62 1.58.23 2.75.11 3.04.74.8 1.18 1.83 1.18 3.08 0 4.41-2.7 5.38-5.27 5.67.42.36.78 1.07.78 2.16v3.2c0 .31.21.66.79.55A10.51 10.51 0 0 0 23.5 12c0-6.27-5.23-11.5-11.5-11.5Z"/></svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://linkedin.com/in/yourusername" aria-label="LinkedIn profile" target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.86 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.42v1.56h.05c.48-.9 1.64-1.85 3.38-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28ZM5.34 7.43a2.07 2.07 0 1 1 0-4.13 2.07 2.07 0 0 1 0 4.13ZM7.12 20.45H3.56V9h3.56v11.45Z"/></svg>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© <span id="year"></span> George Lu. Built with HTML, CSS &amp; JS.</p>
+    <a href="#home" class="back-top">back to top ↑</a>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
