@@ -330,6 +330,13 @@ body {
   width: 48px;
   height: 2px;
   background: var(--ink);
+  margin-bottom: 10px;
+}
+
+.contact-separator {
+  width: 48px;
+  height: 2px;
+  background: var(--ink);
   margin: 0 auto 10px;
 }
 
